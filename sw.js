@@ -1,6 +1,6 @@
 // Occamy: funciona sin internet después de la primera vez.
 // Si actualizás archivos en GitHub, cambiá el número de CACHE (v1 -> v2) para que el celular los baje de nuevo.
-const CACHE = "occamy-v1";
+const CACHE = "occamy-v3";
 const FILES = ["./", "index.html", "manifest.webmanifest", "icon-192.png", "icon-512.png", "icon-maskable-512.png"];
 
 self.addEventListener("install", e => {
